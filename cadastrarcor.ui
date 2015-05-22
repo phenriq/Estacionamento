@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CadastrarCor</class>
+ <widget class="QDialog" name="CadastrarCor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>218</width>
+    <height>121</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>218</width>
+    <height>121</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>218</width>
+    <height>121</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Nova Cor</string>
+  </property>
+  <widget class="QLineEdit" name="txtNovaCor">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>171</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Nova Cor...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnNovaCor">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Adic. Nova Cor</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/1_1-128.png</normaloff>:/img/1_1-128.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnNovaCor</sender>
+   <signal>clicked()</signal>
+   <receiver>CadastrarCor</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>113</x>
+     <y>90</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>164</x>
+     <y>109</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

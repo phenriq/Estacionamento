@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CadastrarEstado</class>
+ <widget class="QDialog" name="CadastrarEstado">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>218</width>
+    <height>121</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>218</width>
+    <height>121</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>218</width>
+    <height>121</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Nova UF</string>
+  </property>
+  <widget class="QPushButton" name="btnAddNovaUf">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Adic. Nova UF</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/1_1-128.png</normaloff>:/img/1_1-128.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtNovaUf">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>171</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Nova UF...</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnAddNovaUf</sender>
+   <signal>clicked()</signal>
+   <receiver>CadastrarEstado</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>125</x>
+     <y>86</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>110</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>file_edit.png</file>
+        <file>Login_in.png</file>
+        <file>Login_out.png</file>
+        <file>remove-01-128.png</file>
+        <file>Anonymous_aiga_car_rental_bg.png</file>
+        <file>busca.png</file>
+        <file>1_1-128.png</file>
+        <file>Save.png</file>
+        <file>Alert.png</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file>sourse/data/cidades.csv</file>
+        <file>sourse/data/cores.csv</file>
+        <file>sourse/data/user.csv</file>
+        <file>sourse/data/carros.csv</file>
+        <file>sourse/data/marcas.csv</file>
+        <file>sourse/data/patio.csv</file>
+    </qresource>
+</RCC>
